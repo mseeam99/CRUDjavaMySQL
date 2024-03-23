@@ -1,3 +1,8 @@
+# Sample output is given below
+
+
+
+<!--
 Welcome to Employee Management Application
 1. Add Employee
 2. Show All Employees
@@ -167,3 +172,4 @@ Enter Choice:
 Program Exit!
 
 Process finished with exit code 0
+-->
