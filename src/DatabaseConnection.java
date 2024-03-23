@@ -8,7 +8,9 @@ public class DatabaseConnection {
     public static Connection createDBConnection() {
         String url = "jdbc:mysql://localhost:3306/Data";
         String username = "root";
-        String password = "airiqbalRseeam99*";
+        // Dummy password
+        // Change to yours
+        String password = "air...";
 
         try {
             //System.out.println("Trying to connect to MySQL database..........");
