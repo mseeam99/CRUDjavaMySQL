@@ -1,169 +1,27 @@
-Welcome to Employee Management Application
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
 
-Enter Choice: 
-2
-Employee Details :
----------------------------------------------
-ID	Name	Salary	Age
----------------------------------------------
-1	Jake	250000.000000	25
----------------------------------------------
-2	Mizan	10000.000000	40
----------------------------------------------
-3	Sagor	12300.000000	13
----------------------------------------------
-4	Khan	500000.000000	55
----------------------------------------------
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+# Employee Management Application
 
-Enter Choice: 
-1
-Enter ID: 
-5
-Enter Name: 
-Paul
-Enter Salary: 
-300000
-Enter Age: 
-41
-Employee Inserted Successfully !!!
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+This console-based application allows users to manage employee records efficiently. It provides the following features:
 
-Enter Choice: 
-2
-Employee Details :
----------------------------------------------
-ID	Name	Salary	Age
----------------------------------------------
-1	Jake	250000.000000	25
----------------------------------------------
-2	Mizan	10000.000000	40
----------------------------------------------
-3	Sagor	12300.000000	13
----------------------------------------------
-4	Khan	500000.000000	55
----------------------------------------------
-5	Paul	300000.000000	41
----------------------------------------------
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+# Add Employee: Allows users to add new employees to the database by providing their ID, name, salary, and age.
 
-Enter Choice: 
-3
-Enter ID to update the details: 
-5
-Enter the new name: 
-Paula
-Employee Details updated successfully !!
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+# Show All Employees: Displays a list of all employees currently stored in the database, including their ID, name, salary, and age.
 
-Enter Choice: 
-2
-Employee Details :
----------------------------------------------
-ID	Name	Salary	Age
----------------------------------------------
-1	Jake	250000.000000	25
----------------------------------------------
-2	Mizan	10000.000000	40
----------------------------------------------
-3	Sagor	12300.000000	13
----------------------------------------------
-4	Khan	500000.000000	55
----------------------------------------------
-5	Paula	300000.000000	41
----------------------------------------------
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+# Update Employee: Enables users to update an existing employee's name by providing their ID and the new name.
 
-Enter Choice: 
-4
-Enter the ID to delete: 
-3
-Employee Deleted Successfully!!! 3
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+# Delete Employee: Permits users to delete an employee from the database by providing their ID.
 
-Enter Choice: 
-2
-Employee Details :
----------------------------------------------
-ID	Name	Salary	Age
----------------------------------------------
-1	Jake	250000.000000	25
----------------------------------------------
-2	Mizan	10000.000000	40
----------------------------------------------
-4	Khan	500000.000000	55
----------------------------------------------
-5	Paula	300000.000000	41
----------------------------------------------
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+# Clear Table: Deletes all employee records from the database, effectively clearing the table.
 
-Enter Choice: 
-5
-4 rows deleted from the employee table.
-Table Cleared !
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+# Exit: Exits the application.
 
-Enter Choice: 
-2
-Employee Details :
----------------------------------------------
-ID	Name	Salary	Age
----------------------------------------------
-1. Add Employee
-2. Show All Employees
-3. Update Employee
-4. Delete Employee
-5. Clear Table
-6. Exit
+Dependencies:
+Java
+MySQL
+PreparedStatement
+MySQL Workbench
 
-Enter Choice: 
-6
-Program Exit!
+The application ensures user input validation to prevent errors and provides clear feedback on the success or failure of operations. It utilizes a relational database management system (such as MySQL) to store and manage employee data, offering a simple yet effective solution for employee management needs.
 
-Process finished with exit code 0
+You can find sample output at the end of Main.java
+
